@@ -1,0 +1,6 @@
+{
+  "name": "St Void Portfolio",
+  "description": "The professional portfolio and vision of Sogolo Donaldson (St Void), Software Engineer and AI Developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
