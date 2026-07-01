@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CelestialBackground from './components/CelestialBackground';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -108,7 +109,8 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-[#050508] text-zinc-900 dark:text-zinc-200 flex flex-col font-sans selection:bg-zinc-200 dark:selection:bg-zinc-800 selection:text-zinc-900 dark:selection:text-white transition-colors duration-300">
+    <div className="min-h-screen bg-transparent text-zinc-900 dark:text-zinc-200 flex flex-col font-sans selection:bg-zinc-200 dark:selection:bg-zinc-800 selection:text-zinc-900 dark:selection:text-white transition-colors duration-300">
+      <CelestialBackground />
       
       {/* Sticky Navigation Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-[#050508]/90 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-900/60 h-20 transition-all">

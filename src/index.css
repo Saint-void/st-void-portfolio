@@ -64,3 +64,18 @@ body {
                     linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
 
+
+/* Make section backgrounds slightly transparent so celestial background is visible */
+#root > div {
+  background-color: transparent !important;
+}
+
+section.bg-white, section.bg-zinc-50 {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  backdrop-filter: blur(10px);
+}
+
+:is(.dark) section.dark\:bg-\[\#050508\], :is(.dark) section.dark\:bg-\[\#08080c\] {
+  background-color: rgba(5, 5, 8, 0.6) !important;
+  backdrop-filter: blur(10px);
+}
