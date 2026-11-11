@@ -13,7 +13,7 @@ export default defineConfig(() => {
     },
     server: {
       allowedHosts: [
-        'https://st-void-fj7g.onrender.com/',
+        'st-void-fj7g.onrender.com',
       ],
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
